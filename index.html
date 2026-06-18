@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Sreeja Saha | Tech Enthusiast</title>
+  <meta name="description" content="Portfolio of Sreeja Saha — Tech Enthusiast specializing in scalable web applications, cloud architecture, and modern JavaScript frameworks. Explore projects, skills, and experience.">
+  <meta name="keywords" content="Tech Enthusiast, Full-Stack Developer, React, Node.js, Cloud Architecture, Portfolio, Software Engineer">
+  <meta name="author" content="Sreeja Saha">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sreeja Saha | Tech Enthusiast">
+  <meta property="og:description" content="Tech Enthusiast  specializing in scalable web apps, cloud architecture, and modern JavaScript. View my projects and experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/sreeja.png">
+
+  <!-- Favicon (inline SVG emoji as data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ═══════════ PRELOADER ═══════════ -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- ═══════════ ANIMATED BACKGROUND ═══════════ -->
+  <div class="bg-animation" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+  </div>
+
+  <!-- ═══════════ MOBILE NAV OVERLAY ═══════════ -->
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="#" class="nav-logo">&lt;<span>SR</span>/&gt;</a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1>
+          <span class="hero-title-line">Hi, I'm</span>
+          <span class="hero-title-line gradient-text">Sreeja Saha</span>
+        </h1>
+
+        <div class="typing-wrapper">
+          <span class="typing-text"></span><span class="cursor"></span>
+        </div>
+
+        <p>
+          Aspiring software and data  analyst with strong foundations in Python, Data Analytics, AI, and IoT. Eager to leverage technical skills, innovation, and teamwork to solve real-world challenges while contributing to organizational growth and continuous technological advancement.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="assets/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+            <i class="fas fa-file-alt"></i> View Resume
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/sreeja095" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/sreeja-saha-ab7a65286" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:sreejasaha7536@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/sreeja.png" alt="Sreeja Saha — Tech Enthusiast" loading="eager">
+          <div class="floating-badge"><i class="fab fa-html5" aria-hidden="true"></i>&nbsp; HTML5</div>
+          <div class="floating-badge"><i class="fab fa-css3-alt" aria-hidden="true"></i>&nbsp; CSS3</div>
+          <div class="floating-badge"><i class="fab fa-js" aria-hidden="true"></i>&nbsp; JavaScript</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>About Me</h2>
+        <p>Transforming ideas into innovative solutions that solve real-world problems and drive sustainable development.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p style="text-align: justify;">
+    I am Sreeja Saha, a B.Tech student at the University of Engineering and Management with a strong interest in Data Analytics, Artificial Intelligence, Computer Vision, Cyber Security, and IoT. I enjoy solving real-world problems through technology and have worked on projects such as GreenHerbaCureDB for medicinal plant classification using AI, MITTI for smart agriculture using NPK sensors, and an IoT-based Smart Garbage Collection System. I have completed internships in Python Programming and Web Development, which helped me strengthen my technical and problem-solving skills. As a finalist in the Square Hackathon at IIT Delhi, I gained valuable experience in teamwork, innovation, and working under pressure. I am a quick learner, highly motivated, and passionate about building impactful technology solutions while continuously enhancing my skills and knowledge.
+</p>
+
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="17" data-suffix="+">0</div>
+              <div class="stat-label">Number of certificates</div>
+            </div>
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="13" data-suffix="+">0</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="9" data-suffix="+">0</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-card glass-card reveal reveal-delay-1">
+            <div class="highlight-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div>
+              <h4>Performance Obsessed</h4>
+              <p>Sub-second load times, optimized bundles, edge caching — I make the web feel instant.</p>
+            </div>
+          </div>
+
+          <div class="highlight-card glass-card reveal reveal-delay-2">
+            <div class="highlight-icon">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <div>
+              <h4>Continuous Learning</h4>
+              <p>Exploring new things while learning new technologies.</p>
+            </div>
+          </div>
+
+          <div class="highlight-card glass-card reveal reveal-delay-3">
+            <div class="highlight-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div>
+              <h4>Team Leadership</h4>
+              <p>Led cross-functional teams of 8+, mentoring engineers and driving technical decisions.</p>
+            </div>
+          </div>
+
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SKILLS ═══════════ -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Technical Skills</h2>
+        <p>Technologies and tools I work with daily</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category glass-card reveal reveal-delay-1">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-palette"></i></div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React / Next.js</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">TypeScript</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="58"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML / CSS / Sass</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="78"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category glass-card reveal reveal-delay-2">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js / Express</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="93"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Python </span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MySQL / MongoDB</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+           
+          </div>
+        </div>
+
+        <!-- Data Analysis -->
+        <div class="skill-category glass-card reveal reveal-delay-3">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-chart-bar"></i></div>
+            <h3>Data Analysis</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Power BI / Tableau</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">python</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MYSql</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Advance EXCEL</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Practices -->
+        <div class="skill-category glass-card reveal reveal-delay-4">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Tools & Practices</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git / GitHub</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="96"></div></div>
+            </div>
+           
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Testing (Postman)</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">System Design</span>
+                <span class="skill-level"></span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PROJECTS ═══════════ -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Featured Projects</h2>
+        <p>A selection of things I've built recently</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card glass-card reveal reveal-delay-1">
+          <div class="project-image">
+            <div class="project-image-placeholder grad-1">
+              <i class="fas fa-cloud-rain"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://weather-application-updated.netlify.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/Sreeja095/webdevelopment-internship/tree/main/PRODIGY_WD_05" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Weather Application</h3>
+            <p>Real-time weather forecasting with interactive maps and location-based alerts.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              
+              <span>Weather API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card reveal reveal-delay-2">
+          <div class="project-image">
+            <div class="project-image-placeholder grad-2">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://tic-tac-toe-095.netlify.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/Sreeja095/webdevelopment-internship/tree/main/PRODIGY_WD_03" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>Interactive web-based Tic-Tac-Toe game with AI opponent and responsive design.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+       
+        <!-- Project 3 -->
+        <div class="project-card glass-card reveal reveal-delay-3">
+          <div class="project-image">
+            <div class="project-image-placeholder grad-3">
+              <i class="fas fa-list-check"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://to-do-list-updated2.netlify.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/Sreeja095/webdevelopment-internship/tree/main/To-Do%20list" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>To-Do-List</h3>
+            <p>A simple yet effective to-do list application with local storage persistence.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Local Storage</span>
+            </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ ACHIEVEMENTS ═══════════ -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Achievements</h2>
+        <p>Milestones and recognitions along the way</p>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card glass-card reveal reveal-delay-1">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Square Hackathon Finalist</h3>
+            <span class="achievement-org">IIT Delhi</span>
+            <p>Selected as a finalist among hundreds of teams, demonstrating innovation, teamwork, and problem-solving under pressure.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card reveal reveal-delay-2">
+          <div class="achievement-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>17+ Certifications</h3>
+            <span class="achievement-org">Python, Data Analytics, Web Dev & more</span>
+            <p>Earned professional certifications across Python Programming, Data Analytics, Web Development, and emerging technologies.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card reveal reveal-delay-3">
+          <div class="achievement-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>B.Tech in Computer Science</h3>
+            <span class="achievement-org">University of Engineering & Management</span>
+            <p>Pursuing B.Tech with a strong focus on Data Analytics, AI, Computer Vision, Cyber Security, and IoT.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card reveal reveal-delay-4">
+          <div class="achievement-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>GreenHerbaCureDB Project</h3>
+            <span class="achievement-org">AI & Computer Vision</span>
+            <p>Built a medicinal plant classification system using AI and computer vision for real-world healthcare applications.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card reveal reveal-delay-1">
+          <div class="achievement-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>MITTI — Smart Agriculture</h3>
+            <span class="achievement-org">IoT & Sensor Technology</span>
+            <p>Developed a smart agriculture system using NPK sensors and IoT for precision farming and soil health monitoring.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card glass-card reveal reveal-delay-2">
+          <div class="achievement-icon">
+            <i class="fas fa-recycle"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>IoT Smart Garbage Collection</h3>
+            <span class="achievement-org">IoT & Automation</span>
+            <p>Created an IoT-based smart garbage collection system for efficient waste management and cleaner cities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ HOBBIES ═══════════ -->
+  <section id="hobbies" class="hobbies">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Hobbies & Interests</h2>
+        <p>What I enjoy beyond the code</p>
+      </div>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card glass-card reveal reveal-delay-1">
+          <div class="hobby-icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <h4>Photography</h4>
+          <p>Capturing moments</p>
+        </div>
+
+        <div class="hobby-card glass-card reveal reveal-delay-2">
+          <div class="hobby-icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <h4>Music</h4>
+          <p>Rhythm & melodies</p>
+        </div>
+
+        <div class="hobby-card glass-card reveal reveal-delay-3">
+          <div class="hobby-icon">
+            <i class="fas fa-plane-departure"></i>
+          </div>
+          <h4>Traveling</h4>
+          <p>Exploring new places</p>
+        </div>
+
+        <div class="hobby-card glass-card reveal reveal-delay-4">
+          <div class="hobby-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h4>Reading</h4>
+          <p>Knowledge & stories</p>
+        </div>
+
+        <div class="hobby-card glass-card reveal reveal-delay-1">
+          <div class="hobby-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h4>Art & Design</h4>
+          <p>Creative expression</p>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ EXPERIENCE ═══════════ -->
+  <!--<section id="experience" class="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Experience</h2>
+        <p>My professional journey so far</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-date">2022 — Present</div>
+            <h3>Senior Full-Stack Developer</h3>
+            <h4>TechNova Solutions</h4>
+            <ul>
+              <li>Lead a team of 8 engineers building a SaaS platform serving 200K+ users</li>
+              <li>Re-architected the monolith into microservices, reducing deploy times by 70%</li>
+              <li>Implemented CI/CD pipelines with GitHub Actions and automated testing</li>
+              <li>Drove adoption of TypeScript and React across all frontend projects</li>
+            </ul>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>-- >
+
+  <!-- ═══════════ CONTACT ═══════════ -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind? Let's talk about it.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Build Something <span class="gradient-text">Great Together</span></h3>
+          <p>
+            I'm always interested in hearing about new projects, creative ideas,
+            or opportunities to be part of your vision. Drop me a line!
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:sreejasaha7536@gmail.com" class="contact-link-item">
+              <i class="fas fa-envelope"></i>
+              <span>sreejasaha7536@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com/in/sreeja-saha-ab7a65286" target="_blank" rel="noopener" class="contact-link-item">
+              <i class="fab fa-linkedin-in"></i>
+              <span>linkedin.com/in/sreeja-saha</span>
+            </a>
+            <a href="https://github.com/sreeja095" target="_blank" rel="noopener" class="contact-link-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/sreeja095</span>
+            </a>
+            <div class="contact-link-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kolkata, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="email" name="email" id="contact-email" placeholder="Your Email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" id="contact-subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="contact-message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="sendMessageBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Sreeja Saha Crafted with <i class="fas fa-heart" style="color: var(--accent-3);"></i> and lots of ☕</p>
+      <div class="footer-socials">
+        <a href="https://github.com/sreeja095" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/sreeja-saha-ab7a65286" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:sreejasaha7536@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════ BACK TO TOP ═══════════ -->
+  <button class="back-to-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
